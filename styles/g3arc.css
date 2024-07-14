@@ -131,6 +131,24 @@ font-weight:700;
 font-weight: 500px;
 
 }
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+     }
+     .flex
+      
+     .fact display-flex{
+     
+        border: 1px solid #ff900e ;
+        width: 241.83px;
+        height: 241.83px;
+        border-radius: 8px;
+        align-items: center;
+        justify-content: center;
+
+     }
+     }
 
  /* responsuive media query */
  @media  screen and (max-width: 576px) {
@@ -150,7 +168,7 @@ flex-direction: column;
     margin-left: 30px;
    
  }
- }
+}
  @media  screen and (max-width: 576px) and (max-width:992px){
 
     .teams{
